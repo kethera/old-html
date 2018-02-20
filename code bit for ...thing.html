@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+
+<TITLE>Bottom Line Text Scroller</TITLE>
+
+
+<script language="JavaScript">
+<!-- Begin
+var Message="Eat At Joe's";
+var place=1;
+function scrollIn() {
+window.status=Message.substring(0, place);
+if (place >= Message.length) {
+place=1;
+window.setTimeout("scrollOut()",100); 
+} else {
+place++;
+window.setTimeout("scrollIn()",120); 
+   } 
+}
+function scrollOut() {
+window.status=Message.substring(place, Message.length);
+if (place >= Message.length) {
+place=1;
+window.setTimeout("scrollIn()", 100);
+} else {
+place++;
+window.setTimeout("scrollOut()", 100);
+   }
+}
+scrollIn()
+// End -->
+</script>
+<script>
+function d(id){ 
+window.open('d.php?n='+id,'Operate','toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=500,height=330');
+}
+</script>
+</HEAD>

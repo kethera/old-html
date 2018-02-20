@@ -1,0 +1,20 @@
+<table border="4">
+      <tr>
+        <td rowspan="3"><p align="center"><!-- Beginning of Pike Weather Box Code --> <img src="http://www.sbccomputer.com/icon.jpg"
+        width="85" height="100" alt="Current Weather Icon"><br>
+        <font size="2" face="Arial" color="#FF0000"><a
+
+        href="http://www.sbccomputer.com/Pikeweather.html">Current Weather in<br>
+        Pike County, PA</a></font> <!-- End of weather box --> </td>
+        <td><a href="http://www.sbccomputer.com/Pikeweather.html">Current Local Weather Data </a></td>
+      </tr>
+      <tr>
+        <td><a HREF="http://met-www.cit.cornell.edu/cgi-bin/fcst?PA048">Local Weather Forecast </a></td>
+      </tr>
+      <tr>
+        <td><a
+
+        HREF="http://www.intellicast.com/LocalWeather/World/UnitedStates/Northeast/NewYork/Albany/Radar/">Northeastern
+        U.S. Radar </a></td>
+      </tr>
+    </table>
